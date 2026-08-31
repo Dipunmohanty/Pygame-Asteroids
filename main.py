@@ -43,7 +43,13 @@ def main():
                     return
         screen.fill("black")
         updatable.update(dt)
+        player.cooldown -= dt
         for a in asteroids:
+            for s in shots:
+                if a.collides_with(s):
+                    log_event("asteroid_shot")
+                    a.kill()
+                    s.kill()
             if a.collides_with(player):
                 log_event("player_hit")
                 print("Game over!")
