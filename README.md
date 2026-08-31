@@ -28,4 +28,4 @@ Asteriods is python based game, using the third party library pygame, and guided
 - I want to thanks the boot.dev for such on hands on project, especially author of the project, Sarah Schulte
 (Creator of BASH stack, the tool for web apps in bash, awk, sed, and htmx).
 
-CERT:
+CERT:[![Boot.dev Build Asteroids using Python and Pygame certificate](https://qvault-webapp-dynamic-assets.storage.googleapis.com/certificates/d708c5bc-43ac-4576-a997-5a8009284842.jpeg?v=1788185952)](https://www.boot.dev/certificates/d708c5bc-43ac-4576-a997-5a8009284842)
